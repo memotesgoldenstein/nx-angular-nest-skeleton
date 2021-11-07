@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@prod-angular-pco/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@prod-angular-pco/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@prod-angular-pco/core-data": ["libs/core-data/src/index.ts"],
+      "@prod-angular-pco/core-state": ["libs/core-state/src/index.ts"],
+      "@prod-angular-pco/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

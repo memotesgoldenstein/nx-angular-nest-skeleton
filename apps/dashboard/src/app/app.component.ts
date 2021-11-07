@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@prod-angular-pco/api-interfaces';
+import { Widget } from '@prod-angular-pco/api-interfaces';
 
 @Component({
   selector: 'prod-angular-pco-root',
@@ -8,6 +8,6 @@ import { Message } from '@prod-angular-pco/api-interfaces';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  hello$ = this.http.get<Message>('/api/hello');
+  hello$ = this.http.get<Widget>('/api/hello');
   constructor(private http: HttpClient) {}
 }
